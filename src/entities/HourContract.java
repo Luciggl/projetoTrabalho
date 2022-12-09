@@ -6,7 +6,7 @@ public class HourContract {
     private Date date;
     private Double valuePerHour;
     private Integer hours;
-    public HourContract(){
+    public HourContract(Date contractDate, double valuePerHour, int hours){
     }
 
     public HourContract(Date date, Double valuePerHour, Integer hours) {
